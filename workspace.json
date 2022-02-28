@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "nx-learn": "apps/nx-learn",
+    "nx-learn-e2e": "apps/nx-learn-e2e"
+  }
+}
