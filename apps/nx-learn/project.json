@@ -15,7 +15,11 @@
         "main": "apps/nx-learn/src/main.tsx",
         "polyfills": "apps/nx-learn/src/polyfills.ts",
         "tsConfig": "apps/nx-learn/tsconfig.app.json",
-        "assets": ["apps/nx-learn/src/favicon.ico", "apps/nx-learn/src/assets"],
+        "assets": [
+          "apps/nx-learn/src/favicon.ico",
+          "apps/nx-learn/src/assets",
+          "apps/nx-learn/src/app.yaml"
+        ],
         "styles": [],
         "scripts": [],
         "webpackConfig": "@nrwl/react/plugins/webpack"

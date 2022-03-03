@@ -17,7 +17,8 @@
         "tsConfig": "apps/attendance/tsconfig.app.json",
         "assets": [
           "apps/attendance/src/favicon.ico",
-          "apps/attendance/src/assets"
+          "apps/attendance/src/assets",
+          "apps/attendance/src/app.yaml"
         ],
         "styles": [],
         "scripts": [],
