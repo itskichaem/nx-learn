@@ -17,5 +17,7 @@ steps:
     args: ['app', 'deploy', 'app.yaml']
     dir: 'dist/apps/attendance'
 
+options:
+  logging: CLOUD_LOGGING_ONLY
 
 timeout: 1800s
