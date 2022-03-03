@@ -1,6 +1,10 @@
 {
   "version": 2,
   "projects": {
+    "attendance": "apps/attendance",
+    "attendance-e2e": "apps/attendance-e2e",
+    "dashboard": "apps/dashboard",
+    "dashboard-e2e": "apps/dashboard-e2e",
     "nx-learn": "apps/nx-learn",
     "nx-learn-e2e": "apps/nx-learn-e2e"
   }

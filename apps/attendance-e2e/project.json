@@ -1,0 +1,28 @@
+{
+  "root": "apps/attendance-e2e",
+  "sourceRoot": "apps/attendance-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/attendance-e2e/cypress.json",
+        "devServerTarget": "attendance:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "attendance:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/attendance-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["attendance"]
+}

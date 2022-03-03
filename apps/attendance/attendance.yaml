@@ -1,0 +1,9 @@
+service: attendance
+runtime: nodejs14
+
+handlers:
+- url: /
+  static_files: ../../dist/apps/attendance/index.html
+  upload: ../../dist/apps/attendance/index.html
+- url: /
+  static_dir: ../../dist/apps/attendance

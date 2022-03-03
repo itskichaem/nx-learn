@@ -1,0 +1,9 @@
+service: learn
+runtime: nodejs14
+
+handlers:
+- url: /
+  static_files: dist/apps/nx-learn/index.html
+  upload: dist/apps/nx-learn/index.html
+- url: /
+  static_dir: dist/apps/nx-learn
